@@ -1,0 +1,68 @@
+{
+  "breakpoint" : [
+    {
+      "file" : "org/example/Main",
+      "lineNumber" : 6,
+      "stackFrameContext" : [
+        {
+          "positionFromTopInStackTrace" : 1,
+          "location" : "org.example.Main:6",
+          "stackTrace" : [
+            "demo:6, org.example.Main",
+            "is_1_oddOrEven:8, org.example.MainTest"
+          ],
+          "runtimeValueCollection" : [
+            {
+              "kind" : "LOCAL_VARIABLE",
+              "name" : "x",
+              "type" : "int",
+              "fields" : [ ],
+              "value" : 1,
+              "arrayElements" : [ ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file" : "org/example/Main",
+      "lineNumber" : 9,
+      "stackFrameContext" : [
+        {
+          "positionFromTopInStackTrace" : 1,
+          "location" : "org.example.Main:9",
+          "stackTrace" : [
+            "demo:9, org.example.Main",
+            "is_1_oddOrEven:8, org.example.MainTest"
+          ],
+          "runtimeValueCollection" : [
+            {
+              "kind" : "LOCAL_VARIABLE",
+              "name" : "x",
+              "type" : "int",
+              "fields" : [ ],
+              "value" : 1,
+              "arrayElements" : [ ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "return" : [
+    {
+      "kind" : "RETURN",
+      "methodName" : "demo",
+      "stackTrace" : [
+        "demo:9, org.example.Main",
+        "is_1_oddOrEven:8, org.example.MainTest"
+      ],
+      "type" : "java.lang.String",
+      "value" : "odd",
+      "arrayElements" : [ ],
+      "fields" : [ ],
+      "location" : "org.example.Main:9",
+      "parameterValues" : [ ]
+    }
+  ]
+}
